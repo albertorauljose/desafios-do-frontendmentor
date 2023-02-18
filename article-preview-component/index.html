@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+  <div id="container">
+    
+    <div id="drawers">
+      <img src="images/drawers.jpg" alt="Drawers">
+    </div>
+
+    <main id="main-content">
+      <h1>
+        Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home
+      </h1>
+
+      <p>
+        Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.
+      </p>
+      
+      <div class="card card-desktop">
+        
+        <div class="card-avatar">
+          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton">
+          <div>
+            <span class="card-avatar-name">Michelle Appleton</span>
+            <span class="card-avatar-date">28 Jun 2020</span>
+          </div>
+        </div>
+
+        <div class="card-share">
+          <a href="#" class="card-share-toggler" id="card-share-toggler-desktop" onclick="toggle('share-menu-desktop', 'card-share-toggler-desktop')"></a>
+          <div class="card-share-menu" id="share-menu-desktop">
+            <strong class="card-share-text">Share</strong>
+            <a href="#" class="card-share-facebook"></a>
+            <a href="#" class="card-share-twitter"></a>
+            <a href="#" class="card-share-pinterest"></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card card-mobile">
+        
+        <div class="card-avatar" id="card-avatar-mobile">
+          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton">
+          <div>
+            <span class="card-avatar-name">Michelle Appleton</span>
+            <span class="card-avatar-date">28 Jun 2020</span>
+          </div>
+        </div>
+
+        <div class="card-share">
+          <a href="#" class="card-share-toggler" onclick="show('card-share-menu-mobile'); hide('card-avatar-mobile')"></a>
+          <div class="card-share-menu" id="card-share-menu-mobile">
+            <div>
+              <strong class="card-share-text">Share</strong>
+              <a href="#" class="card-share-facebook"></a>
+              <a href="#" class="card-share-twitter"></a>
+              <a href="#" class="card-share-pinterest"></a>
+            </div>
+            <a href="#" class="card-share-toggler-2" onclick="show('card-avatar-mobile'); hide('card-share-menu-mobile')"></a>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+  
+  <footer id="main-footer">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" title="Ir para o desafio">Frontend Mentor</a> and Coded by <a href="https://github.com/albertorauljose" target="_blank" title="Ir para o meu GitHub">Alberto Raúl José</a></p>
+  </footer>
+
+  <script>
+    function hide(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+
+    function show(id) {
+      document.getElementById(id).style.display = 'flex';
+    }
+
+    function toggle(id, toggler) {
+      var style = document.getElementById(id).style;
+      var newDisplay = style.display === 'block' ? 'none' : 'block';
+      var newBackgroundColor = style.display === 'block' ? '#ecf2f8' : '#9eafc2';
+      
+      style.display = newDisplay;
+      document.getElementById(toggler).style.backgroundColor = newBackgroundColor;
+    }
+  </script>
+</body>
+</html>
