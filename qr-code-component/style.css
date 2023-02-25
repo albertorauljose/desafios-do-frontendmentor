@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Outfit;
+    src: url('fonts/Outfit.ttf') format('truetype');
+}
+
+:root {
+
+    /* Color Pallete */
+    --white: #ffffff;
+    --light-gray: #d6e2f0;
+    --grayish-blue: #7b879d;
+    --dark-blue: #1f3251;
+
+    /* Typography */
+    --default-font: Outfit, Helvetica, Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+body {
+    font-family: var(--default-font);
+    font-size: 15px;
+    background: var(--light-gray);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .content {
+        flex-basis: 100%;
+    }
+
+        .card {
+            max-width: 375px;
+            display: flex;
+            flex-direction: column;
+            background: var(--white);
+            padding: 16px;
+            margin: auto;
+        }
+
+            .card-header img {
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+            }
+
+            .card-body {
+                padding: 24px 32px;
+                text-align: center;
+            }
+                .card-body h1 {
+                    color: var(--dark-blue);
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+
+                .card-body p {
+                    color: var(--grayish-blue);
+                    margin-top: 24px;
+                }
+
+
+    .footer {
+        text-align: center;
+        padding: 10px;
+        color: var(--grayish-blue);
+    }
+
+        .footer a {
+            font-weight: 700;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            color: var(--dark-blue);
+        }
+
+@media only screen and (min-width: 425px) {
+    .card {
+        border-radius: 30px;
+        margin: 3.25% auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        margin: 6.25% auto;
+    }
+}
