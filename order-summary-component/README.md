@@ -12,7 +12,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL da solução](https://github.com/albertorauljose/desafios-do-frontendmentor/tree/main/order-summary-component)
+- Live Site URL: [URL do site da solução](https://albertorauljose.github.io/desafios-do-frontendmentor/order-summary-component/index.html)
 
 ## My process
 
@@ -43,17 +42,13 @@ Users should be able to:
 
 ### What I learned
 
-- CSS RESET - Por que é importante utilizar o CSS RESET em um projecto.
+- CSS RESET - How important it is to use CSS RESET in a project.
 
-- CSS Flexbox - Utilizar os conceitos do CSS Flexbox na prática.
+- CSS Flexbox - Put CSS Flexbox concepts into practice.
 
 ### Continued development
 
-Futuramente eu gostaria de aprender a trabalhar melhor com CSS Media Queries e CSS Grid.
-
-### Useful resources
-
-- [CSS Flexbox](https://www.example.com) - This is an amazing article which helped me finally understand the basics of CSS Flexbox. I'd recommend it to anyone still learning this concept.
+In the future I would like to learn how to work better with CSS Media Queries and CSS Grid.
 
 ## Author
 
@@ -65,4 +60,4 @@ Futuramente eu gostaria de aprender a trabalhar melhor com CSS Media Queries e C
 
 ## Acknowledgments
 
- Eu agradeço especialmente a toda equipa do Frontend Mentor e a todos outros membros da plataforma, por me dar a grande oportunidade de poder colocar o que estou aprendendo em prática. Estou fascinado com os desafios e estou tendo uma óptima  experiência com vocês aqui na plataforma. MUITO OBRIGRADO, a todos!
+ I especially thank the entire <strong>Frontend Mentor</strong> team and all the other <strong>members of the platform</strong>, for giving me the great opportunity to put what I'm learning into practice. I'm fascinated by the challenges and I'm having a great experience with you here on the platform. A BIG THANK YOU, everyone!
