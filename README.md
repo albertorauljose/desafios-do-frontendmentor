@@ -16,4 +16,4 @@ Os links das soluções dos desafios da categoria Novato são:
 
 - Desafio [QR code component](https://albertorauljose.github.io/desafios-do-frontendmentor/qr-code-component/index.html)
 
-- Desafio [NFT preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/qr-code-component/index.html)
+- Desafio [NFT preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/nft-preview-card-component/index.html)
