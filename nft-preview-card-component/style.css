@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Outfit;
+    src: url('fonts/Outfit.ttf') format('truetype');
+}
+
+:root {
+
+    /* Primary Colors */
+    --soft-blue: #8bacda;
+    --cyan: #00fff7;
+
+    /* Neutral Colors */
+    --main-bg: #0d192b;
+    --card-bg: #14253d;
+    --line: #2f415b;
+
+    /* Typography */
+    --typografy: Outfit, Arial, Helvetica, Verdana, sans-serif;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+body {
+    font-family: var(--typografy);
+    font-size: 18px;
+    background: var(--main-bg);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .main {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .card {
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            background: var(--card-bg);
+            color: var(--soft-blue);
+            max-width: 375px;
+            margin: auto;
+        }
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+            }
+
+                .equilibrium-link {
+                    width: fit-content;
+                    height: fit-content;
+                    border-radius: 10px;
+                    
+                }
+
+                    .equilibrium-link img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    .equilibrium-link:hover {
+                        background: url('images/icon-view.svg') no-repeat center center #00fff7ce;
+                        
+                    }
+
+                    .equilibrium-link:hover img {
+                        opacity: 0.3;
+                    }
+                
+                .card-body h1 {
+                    font-size: 24px;
+                    margin: 16px 0;
+                }
+
+                    .card-body h1 a {
+                        color: #fff;
+                    }    
+
+                    .card-body h1 a:hover {
+                        color: var(--cyan);
+                    }
+
+                .card-body p {
+                    line-height: 32px;
+                }
+
+                .card-body p:last-child {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 16px 0;
+                }
+                    .left {
+                        color: var(--cyan);
+                    }
+
+                        .icon-ethereum {
+                            background: url('images/icon-ethereum.svg') no-repeat center center;
+                            padding: 12px;
+
+                        }
+
+                        .icon-clock {
+                            background: url('images/icon-clock.svg') no-repeat center center;
+                            padding: 16px;
+                        }
+
+            .card-footer {
+                display: flex;
+                align-items: center;
+                border-top: 1px solid var(--line);
+                padding-top: 16px;
+            }
+                .card-footer img {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    margin-right: 16px;
+                }
+
+                .card-footer a {
+                    color: #fff;
+                }
+
+                .card-footer a:hover {
+                    color: var(--cyan);
+                }
+                
+
+
+
+    .footer {
+        padding: 10px;
+        text-align: center;
+        font-size: 12.8px;
+        background: var(--line);
+        color: var(--soft-blue);
+    }
+
+        .footer a {
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            color: var(--cyan);
+        }
+
+@media only screen and (min-width: 425px) {
+    .card {
+        border-radius: 20px;
+    }
+}
