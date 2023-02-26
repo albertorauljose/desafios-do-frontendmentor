@@ -1,11 +1,19 @@
-# Desafios do Frontend Mentor
- Desafios solucionados propostos pelo Frontend Mentor
+# Soluções dos desafios do Frontend Mentor
+
+## Bem-vindo! 👋
+
+ Olá, amigo! Ou amiga! Seja muito bem-vindo ao meu repositório. Meu nome é Alberto Raúl José, sou estudante de TI. Nas secções abaixo estão os links das soluções dos desafios propostos pelo Frontend Mentor que até agora já consegui solucionar. Sinta-se avontade para acessá-las e dizer o que você acha delas.
 
 ## Desafios da categoria Novato
- <p>Acesse a solução do desafio <strong>Article preview component</strong> <a href="https://albertorauljose.github.io/desafios-do-frontendmentor/article-preview-component/index.html" target="_blank">clicando aqui</a></p>
- 
- <p>Acesse a solução do desafio <strong>Huddle landing page with single introductory section</strong> <a href="https://albertorauljose.github.io/desafios-do-frontendmentor/huddle-landing-page-with-single-introductory-section/index.html" target="_blank">clicando aqui</a></p>
 
- <p>Acesse a solução do desafio <strong>Order summary card</strong> <a href="https://albertorauljose.github.io/desafios-do-frontendmentor/order-summary-component/index.html" target="_blank">clicando aqui</a></p>
+Os links das soluções dos desafios da categoria Novato são:
 
- <p>Acesse a solução do desafio <strong>QR code component</strong> <a href="https://albertorauljose.github.io/desafios-do-frontendmentor/qr-code-component/index.html" target="_blank">clicando aqui</a></p>
+- Desafio [Article preview component](https://albertorauljose.github.io/desafios-do-frontendmentor/article-preview-component/index.html)
+
+- Desafio [Huddle landing page with single introductory section](https://albertorauljose.github.io/desafios-do-frontendmentor/huddle-landing-page-with-single-introductory-section/index.html)
+
+- Desafio [Order summary card](https://albertorauljose.github.io/desafios-do-frontendmentor/order-summary-component/index.html)
+
+- Desafio [QR code component](https://albertorauljose.github.io/desafios-do-frontendmentor/qr-code-component/index.html)
+
+- Desafio [NFT preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/qr-code-component/index.html)
