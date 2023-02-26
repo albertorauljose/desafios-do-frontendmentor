@@ -19,3 +19,5 @@ Os links das soluções dos desafios da categoria Novato são:
 - Desafio [NFT preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/nft-preview-card-component/index.html)
 
 - Desafio [Stats preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/stats-preview-card-component/index.html)
+
+- Desafio [Profile card component](https://albertorauljose.github.io/desafios-do-frontendmentor/profile-card-component/index.html)
