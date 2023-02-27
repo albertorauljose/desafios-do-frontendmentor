@@ -2,7 +2,7 @@
 
 ## Bem-vindo! 👋
 
- Olá, amigo! Ou amiga! Seja muito bem-vindo(a) ao meu repositório. Meu nome é Alberto Raúl José, sou estudante de TI. Na secção abaixo estão os links das soluções dos desafios propostos pelo [Frontend Mentor](https://www.frontendmentor.io/challenges) que até agora já consegui solucionar. Sinta-se avontade para acessá-las e sugerir qualquer coisa que eu poderia fazer para poder melhorá-las.
+ Olá, amigo! Ou amiga! Seja muito bem-vindo(a) ao meu repositório. Meu nome é Alberto Raúl José, sou estudante de TI. Na secção abaixo estão os links das soluções dos desafios propostos pelo [Frontend Mentor](https://www.frontendmentor.io/challenges) que até agora já consegui solucionar. Sinta-se avontade para acessá-las e sugerir qualquer coisa que eu poderia fazer para melhorá-las.
 
 ## Categorias de desafios
 
