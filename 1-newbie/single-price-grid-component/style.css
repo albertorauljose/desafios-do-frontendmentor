@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Karla;
+    src: url('fonts/Karla.ttf') format('truetype');
+}
+
+:root {
+
+    /* Primary Colors */
+    --cyan: #2ab2af;
+    --bright-yellow: #c0df34;
+
+    /* Neutral Colors */
+    --light-gray: #e5eff5;
+    --grayish-blue: #98a6bd;
+
+    /* Typografy */
+    --default-font: Karla, Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+body {
+    font-family: var(--default-font);
+    font-size: 16px;
+    background: var(--light-gray);
+}
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .main {
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            max-width: 375px;
+        }
+            .main section {
+                padding: 24px;
+                color: var(--light-gray);
+            }
+
+            .main h1 {
+                color: var(--cyan);
+                font-size: 24px;
+            }
+
+            .main h2 {
+                font-size: 20px;
+                color: var(--light-gray);
+            }
+
+                .join-our-community h2 {
+                    margin: 24px 0;
+                    color: var(--bright-yellow);
+                }
+
+                .join-our-community p {
+                    margin: 24px 0;
+                    line-height: 24px;
+                    color: var(--grayish-blue);
+                }
+
+                
+            .monthly-subscription {
+                background: var(--cyan);
+            }
+                .monthly-subscription p:first-child {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 16px;
+                }
+                
+                    .value {
+                        font-size: 32px;
+                        font-weight: 700;
+                        margin-right: 10px;
+                    }
+
+                    .time {
+                        color: #e5eff591;
+                    }
+                .monthly-subscription p:last-child {
+                    margin-top: 8px;
+                }
+
+                .monthly-subscription a {
+                    background: var(--bright-yellow);
+                    color: #fff;
+                    display: inline-block;
+                    width: 100%;
+                    border-radius: 5px;
+                    text-align: center;
+                    padding: 12px 0;
+                    font-weight: 500;
+                    margin-top: 32px;
+                }
+
+                .monthly-subscription a:hover {
+                    background: #b2cf31;
+                }
+
+            .why-us {
+                background: #2ab2b0e3;
+            }
+
+                .why-us ul {
+                    margin-top: 24px;
+                    list-style: none;
+                    line-height: 24px;
+                    color: #e5eff5c0;
+                }
+
+        .footer {
+            font-size: 12.8px;
+            text-align: center;
+            padding: 16px 0;
+            line-height: 24px;
+            color: var(--grayish-blue);
+        }
+
+            .footer a {
+                color: var(--cyan);
+                font-weight: 700;
+            }
+
+            .footer a:hover {
+                color: #2ab2af;
+                text-decoration: underline;
+            }
+
+@media only screen and (min-width: 393px) {
+    .why-us {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        justify-content: center;
+    }
+        .main {
+            max-width: calc(375px * 1.8);
+            flex-flow: row wrap;
+            border-radius: 10px;
+        }
+            .main section {
+                padding: 48px 48px 16px 48px;
+            }
+
+
+            .join-our-community {
+                width: 100%;
+                
+            }
+                .join-our-community p {
+                    margin-top: -8px;
+                    line-height: 24px;
+                }
+
+            .monthly-subscription {
+                width: 50%;
+                border-radius: 0 0 0 10px;
+            }
+                .monthly-subscription a {
+                    padding: 16px 0;
+                }
+
+            .why-us {
+                width: 50%;
+                border-radius: 0 0 10px 0;
+            }
+                .why-us ul {
+                    margin-bottom: 24px;
+                }
+
+}

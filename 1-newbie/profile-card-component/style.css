@@ -32,7 +32,7 @@ html, body, .container {
 body {
     font-family: var(--typography);
     color: var(--dark-grayish-blue);
-    background-color: var(--dark-cyan);
+    background: var(--dark-cyan);
 }
 
     .container {
