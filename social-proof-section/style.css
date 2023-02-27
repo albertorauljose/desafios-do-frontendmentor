@@ -1,0 +1,231 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url('fonts/LeagueSpartan.ttf') format('truetype');
+}
+
+:root {
+    /* Primary Colors */
+    --very-dark-magenta: #502050;
+    --soft-pink: #ee68a4;
+
+    /* Neutral Colors */
+    --dark-grayish-magenta: #937b92;
+    --light-grayish-magenta: #f7f2f7;
+    --white: #ffffff;
+
+    /* Typography */
+    --typograhpy: LeagueSpartan, Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+body {
+    font-family: var(--typograhpy);
+    font-size: 15px;
+}
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px;
+            max-width: 375px;
+        }
+            .text-container {
+                text-align: center;
+                margin: 16px 0;
+            }
+
+                .text-container h1{
+                    color: var(--very-dark-magenta);
+                    margin: 16px;
+                }
+
+                .text-container p {
+                    color: var(--dark-grayish-magenta);
+                    line-height: 20px;
+                    margin-top: 16px;
+                }
+            
+            .review-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin: 16px 0;
+            }
+                .review {
+                  
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background: var(--light-grayish-magenta);
+                    padding: 12px;
+                    border-radius: 10px;
+                    margin-bottom: 16px;
+                }
+                    .review-stars {
+                        display: flex;
+                    }
+                        .review-icon {
+                            background: url('images/icon-star.svg') no-repeat 0 0;
+                            padding: 8px;
+                            margin-right: 8px;
+                        }
+
+                    .review-text {
+                        margin-top: 12px;
+                        color: var(--very-dark-magenta);
+                        font-weight: 700;
+                        text-align: center;
+                    }
+            
+
+            .card-container {
+                display: flex;
+                flex-direction: column;
+            }
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    background: var(--very-dark-magenta);
+                    margin-bottom: 16px;
+                    padding: 32px;
+                    border-radius: 10px;
+                }
+
+                    .card-header {
+                        display: flex;
+                        align-items: center;
+                    }
+                        .avatar-photo {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                        }
+
+                        .card-header p {
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: 20px;
+                            line-height: 18px;
+                        }
+                            .avatar-name {
+                                font-weight: 700;
+                                color: #fff;
+                            }
+                            .avatar-description{
+                                color: var(--soft-pink);
+                            }
+                    .card-body {
+                        margin-top: 24px;
+                        line-height: 20px;
+                        color: var(--light-grayish-magenta);
+                    }
+        .footer {
+            text-align: center;
+            padding: 16px;
+            line-height: 20px;
+            font-size: 12.8px;
+            color: var(--dark-grayish-magenta);
+        }
+        
+        .footer a {
+            font-weight: 700;
+            color: var(--very-dark-magenta);
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            color: var(--soft-pink);
+        }
+
+@media only screen and (min-width: 1200px)  and (min-height: 660px){
+    .container {
+        justify-content: center;
+    }
+
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        max-width: calc(375px * 2.66);
+        height: 100%;
+    }
+        .text-container {
+            width: 40%;
+            text-align: left;
+        }
+            .text-container h1 {
+                margin: 0;
+                font-size: 56px;
+                line-height: 48px;
+            }
+
+            .text-container p {
+                max-width: 375px;
+            }
+
+        .review-container {
+            width: 40%;
+            margin-left: 20%;
+        }
+
+            .review {
+                flex-direction: row;
+                align-items: center;
+                padding: 20px 0;
+            }
+                .review-stars {
+                    margin-left: 28px;
+                }
+
+                .review-text {
+                    margin-top: 0;
+                    margin-left: 28px;
+                }
+            .review:first-child {
+                position: relative;
+                left: -96px;
+            }
+
+            .review:first-child + .review {
+                position: relative;
+                left: -48px;
+            }
+
+        .card-container {
+            width: 100%;
+            flex-direction: row;
+        }
+            .card {
+                margin-right: 24px;
+            }
+
+            .card:first-child {
+               position: relative;
+               top: -32px;
+            }
+
+            .card:first-child + .card {
+                position: relative;
+                top: -16px;
+            }
+
+            .card:last-child {
+                margin-right: 0;
+            }
+}
