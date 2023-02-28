@@ -12,6 +12,8 @@
 
 - Desafio [Article preview component](https://albertorauljose.github.io/desafios-do-frontendmentor/article-preview-component/index.html)
 
+- Desafio [Four card feature section](https://albertorauljose.github.io/desafios-do-frontendmentor/four-card-feature-section/index.html)
+
 - Desafio [Huddle landing page with single introductory section](https://albertorauljose.github.io/desafios-do-frontendmentor/huddle-landing-page-with-single-introductory-section/index.html)
 
 - Desafio [NFT preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/nft-preview-card-component/index.html)
