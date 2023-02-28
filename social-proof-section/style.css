@@ -18,6 +18,7 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -162,7 +163,7 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-evenly;
-        max-width: calc(375px * 2.66);
+        max-width: calc(375px * 2.75);
         height: 100%;
     }
         .text-container {
@@ -213,6 +214,7 @@ body {
         }
             .card {
                 margin-right: 24px;
+                margin-bottom: 0;
             }
 
             .card:first-child {
