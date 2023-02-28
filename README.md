@@ -24,4 +24,6 @@
 
 - Desafio [Single price grid component](https://albertorauljose.github.io/desafios-do-frontendmentor/single-price-grid-component/index.html)
 
+- Desafio [Social proof section](https://albertorauljose.github.io/desafios-do-frontendmentor/social-proof-section/index.html)
+
 - Desafio [Stats preview card component](https://albertorauljose.github.io/desafios-do-frontendmentor/stats-preview-card-component/index.html)
